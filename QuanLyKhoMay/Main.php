@@ -31,8 +31,8 @@ if ($ct == 1)
     $ct = new Kho();
     $ct->NhapThongTinKho();
     print_r($ct->XuatThongTinKho());
-    print_r($ct->TinhTongTienKho());
-    print_r($ct->TinhTongKLKho());
+    print_r("Tong tien kho: " . $ct->TinhTongTienKho());
+    print_r("Tong khoi luong cua kho: " . $ct->TinhTongKLKho());
 }
 
 else if ($ct == 2)
@@ -40,8 +40,8 @@ else if ($ct == 2)
     $ct = new May();
     $ct->NhapThongTinMay();
     print_r($ct->XuatThongTinMay());
-    print_r($ct->TinhTongTienMay() . "\n");
-    print_r($ct->TinhTongKLMay() . "\n");
+    print_r("Tong tien may: " . $ct->TinhTongTienMay() . "\n");
+    print_r("Tong khoi luong cua may: " . $ct->TinhTongKLMay() . "\n");
 }
 
 else if ($ct == 3)
@@ -49,8 +49,8 @@ else if ($ct == 3)
     $ct = new ChiTietPhuc();
     $ct->NhapThongTin();
     print_r($ct->XuatThongTin());
-    print_r($ct->TinhTongTien());
-    print_r($ct->TinhTongKL());
+    print_r("Tong tien cua chi tiet: " . $ct->TinhTongTien());
+    print_r("Tong khoi luong cua chi tiet: " . $ct->TinhTongKL());
 }
 
 else if ($ct == 4)
