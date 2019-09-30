@@ -53,3 +53,11 @@ _ Kiểm tra kho:
     . Sẽ báo lỗi khi người dùng nhập số âm, yêu cầu nhập lại.
     . Sẽ báo lỗi khi người dùng nhập chữ số thập phân, yêu cầu nhập lại.
   + Sẽ chỉ duyệt kết quả và chấm dứt yêu cầu nhập lại khi số lượng máy là số nguyên dương.
+
+_ Kiểm tra lựa chọn nhập vào tại menu chính: 
+  + Số nhập trong menu để lựa chọn phải là số nguyên , trong khoảng từ 1 -> 4.
+  + Sẽ báo lỗi khi người dùng nhập kí tự, yêu cầu nhập lại.
+  + Sẽ báo lỗi khi người dùng nhập số âm, yêu cầu nhập lại.
+  + Sẽ báo lỗi khi người dùng nhập chữ số thập phân, yêu cầu nhập lại.
+  + Sẽ báo lỗi khi người dùng nhập số vượt quá phạm vi của menu (trong khoảng từ 1 -> 4).
+_ Sẽ chỉ duyệt kết quả và chấm dứt yêu cầu nhập lại khi kết quả lựa chọn là số nguyên dương và nằm trong khoảng từ 1 -> 4.
